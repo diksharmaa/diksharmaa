@@ -1,47 +1,79 @@
 from pathlib import Path
-import pypandoc
 
-readme = r'''<div align="center">
-  <img src="./portrait.png" alt="Illustrated portrait of Diksha Sharma" width="190" />
+readme = '''<div align="center">
 
-  <h1>Diksha Sharma</h1>
+# Diksha Sharma
 
-  <p><strong>SEO · AEO/GEO · Content · Brand & PR</strong></p>
+**SEO · AEO/GEO · Content Strategy · Brand & PR**
 
-  <p>
-    <a href="https://www.linkedin.com/in/dikshasharma005/">LinkedIn</a>
-    &nbsp;·&nbsp;
-    <a href="https://diksharmaa.com">Website</a>
-    &nbsp;·&nbsp;
-    <a href="mailto:dikshas1404@gmail.com">Email</a>
-  </p>
+<a href="https://www.linkedin.com/in/dikshasharma005/">LinkedIn</a>
+&nbsp; · &nbsp;
+<a href="https://diksharmaa.com">Website</a>
+&nbsp; · &nbsp;
+<a href="mailto:dikshas1404@gmail.com">Email</a>
+
+*Making brands easier to discover across search and AI answer engines.*
+
 </div>
 
 ---
 
 ## About
 
-Marketing professional working across **SEO, AEO/GEO, content, brand, and PR**. I build content strategies and systems that help brands become easier to discover across search and AI answer engines.
-
-I enjoy exploring ideas, connecting strategy with execution, and turning useful insights into practical projects.
+I’m a marketing professional working across **SEO, AEO/GEO, content, brand, and PR**. I enjoy connecting strategy with execution—building content systems, testing ideas, and turning insights into useful work.
 
 ## Experience
 
-| Role | Organisation | Highlights |
+| Role | Organisation | Focus |
 |---|---|---|
-| Head of SEO and Content Marketing | London Taxi Adverts | Built an AEO/GEO content system; generated 31 AI citations and 7.9K+ impressions in 90 days. |
-| Freelance SEO Consultant and PR Strategist | Out Of Office Creative Retreats | Achieved 12K+ impressions and 460+ clicks over 11 months; secured first-page rankings for core keywords. |
-| Content Strategist | GetMega | Led content campaigns that generated 6.8M impressions and supported a 7.5% increase in organic traffic. |
-| Freelance SEO Content Strategist and Marketer | Independent | Created SEO and integrated content for Capchase, FRR Forex, and American Healthcare Academy; supported corporate communications for Gulf Oil India and UGRO Capital. |
+| **Head of SEO and Content Marketing** | London Taxi Adverts | AEO/GEO strategy, content systems, AI visibility |
+| **Freelance SEO Consultant and PR Strategist** | Out Of Office Creative Retreats | Organic growth, content, booking conversions |
+| **Content Strategist** | GetMega | SEO campaigns, guest posts, web stories |
+| **Freelance SEO Content Strategist and Marketer** | Independent | SEO content, integrated marketing, corporate communications |
+
+## Selected Highlights
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <h2>31</h2>
+      <strong>AI citations</strong><br/>
+      <sub>Generated in 90 days</sub>
+    </td>
+    <td align="center" width="25%">
+      <h2>7.9K+</h2>
+      <strong>Impressions</strong><br/>
+      <sub>Within 90 days</sub>
+    </td>
+    <td align="center" width="25%">
+      <h2>12K+</h2>
+      <strong>Impressions</strong><br/>
+      <sub>Organic campaign</sub>
+    </td>
+    <td align="center" width="25%">
+      <h2>6.8M</h2>
+      <strong>Impressions</strong><br/>
+      <sub>Content campaigns</sub>
+    </td>
+  </tr>
+</table>
+
+- **AI search visibility:** Built an AEO/GEO system with 90 AI-optimised blogs, structured data, internal-linking clusters, and citation tracking across ChatGPT, Perplexity, and Claude.
+- **Lean content operations:** Created an automated workflow using Nimbalyst, Google Sheets, and the Semrush API, reducing the publishing process to under 20 minutes of QA per week.
+- **Organic growth:** Earned 460+ clicks over 11 months and secured first-page rankings for core target keywords within 45 days.
+- **Content performance:** Supported a 7.5% increase in organic traffic through guest-post campaigns, web stories, and promotional content.
+- **B2B and corporate communications:** Produced content for Capchase, FRR Forex, and American Healthcare Academy, and developed corporate communications for Gulf Oil India and UGRO Capital.
 
 ## Projects
 
-*Projects coming soon — I'll add selected projects here as I build them.*
+*Selected projects will be added here as I build and publish them.*
 
 ---
 
-<p align="center"><sub>Building clearer content systems and better ways to be discovered.</sub></p>
+<div align="center">
+  <sub>Strategy-minded. Curious by default. Focused on useful outcomes.</sub>
+</div>
 '''
 out = Path("/mnt/data/README.md")
-pypandoc.convert_text(readme, "md", format="md", outputfile=str(out), extra_args=["--standalone"])
-print(f"Updated README created at {out}")
+out.write_text(readme, encoding="utf-8")
+print(f"Clean README saved to {out}")
