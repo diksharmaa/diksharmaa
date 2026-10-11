@@ -1,39 +1,63 @@
 
-<h1 align="center">Hi, I'm Diksha 👋</h1>
+<div align="center">
+  <img src="./portrait.png" alt="Illustrated portrait" width="220" />
 
-<p align="center">
-  Marketing professional | Curious mind | Lifelong learner
-</p>
+  <h1>Diksha Sharma</h1>
 
-<p align="center">
-  Interested in the intersection of marketing, technology,
-  analytics, and creative problem-solving.
-</p>
+  <p>
+    Content & SEO Lead · Marketing · Technology
+  </p>
+
+  <p>
+    <a href="https://www.linkedin.com/in/dikshasharma005/">LinkedIn</a>
+    &nbsp;·&nbsp;
+    <a href="https://diksharmaa.com">Website</a>
+    &nbsp;·&nbsp;
+    <a href="mailto:dikshas1404@gmail.com">Email</a>
+  </p>
+</div>
 
 ---
 
-### About Me
+## About
 
-- Exploring new ideas and building skills along the way.
-- Interested in marketing, technology, and data-driven thinking.
-- Using GitHub to document projects and learning.
-- Always open to discovering new tools and ideas.
+I'm a marketing professional interested in SEO, content, brand, PR, and technology. I enjoy exploring ideas and turning them into useful projects.
 
-### GitHub Overview
+I work at the intersection of content and search, with an interest in how strong narratives and digital experiences help people discover and understand products.
+
+## Experience
+
+| Position | Company | Focus |
+|---|---|---|
+| Content and SEO Lead | [Rwazi](https://www.rwazi.com/) | Marketing |
+
+## Projects
+
+*Projects coming soon — I'll add selected projects here as I build them.*
+
+## GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=diksharmaa&show_icons=true&hide_border=true&theme=default" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diksharmaa&layout=compact&hide_border=true&theme=default" alt="Most used languages" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=diksharmaa&show_icons=true&hide_border=true&theme=default"
+    height="150"
+    alt="GitHub statistics"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=diksharmaa&layout=compact&hide_border=true&theme=default"
+    height="150"
+    alt="Most used languages"
+  />
 </p>
 
-### Activity
+## Activity
 
 <!-- ACTIVITY-START -->
-_Recent public GitHub activity will appear here._
+Recent public GitHub activity will appear here once the automation is configured.
 <!-- ACTIVITY-END -->
 
 ---
 
 <p align="center">
-  Learning, exploring, and growing one step at a time.
+  <sub>Exploring ideas. Building useful things. Learning along the way.</sub>
 </p>
