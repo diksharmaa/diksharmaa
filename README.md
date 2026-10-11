@@ -1,5 +1,17 @@
 <div align="center">
-  <img src="./profile-banner.jpg" alt="Diksha Sharma — SEO, AEO/GEO, content, brand and PR" width="100%" />
+  <h1><strong>Diksha Sharma</strong></h1>
+  <p><strong>SEO · AEO/GEO · Content Strategy · Brand & PR</strong></p>
+  <p>
+    <a href="https://www.linkedin.com/in/dikshasharma005/">LinkedIn</a>
+    &nbsp;·&nbsp;
+    <a href="https://diksharmaa.com">Website</a>
+    &nbsp;·&nbsp;
+    <a href="mailto:dikshas1404@gmail.com">Email</a>
+  </p>
+</div>
+
+<div align="center">
+  <img src="./profile-banner.jpg" alt="Diksha Sharma portfolio banner with graphite portrait and marketing highlights" width="100%" />
 </div>
 
 ---
