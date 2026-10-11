@@ -1,6 +1,4 @@
-from pathlib import Path
-
-readme = '''<div align="center">
+<div align="center">
 
 # Diksha Sharma
 
@@ -58,7 +56,3 @@ I’m a marketing professional working across SEO, AEO/GEO, content, brand, and 
 <div align="center">
 <sub>Strategy-minded. Curious by default. Focused on useful outcomes.</sub>
 </div>
-'''
-out = Path("/mnt/data/README_CLEAN.md")
-out.write_text(readme, encoding="utf-8")
-print("Created clean Markdown README: " + str(out))
