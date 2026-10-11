@@ -18,17 +18,12 @@ I’m a marketing professional working across SEO, AEO/GEO, content, brand, and 
 
 ## Experience
 
-### Head of SEO and Content Marketing
-**London Taxi Adverts** · Remote · July 2025–Present
-
-### Freelance SEO Consultant and PR Strategist
-**Out Of Office Creative Retreats** · Remote · 2025
-
-### Content Strategist
-**GetMega** · Remote · Oct 2024–Feb 2025
-
-### Freelance SEO Content Strategist and Marketer
-**Independent** · Remote · 2022–Present
+| Role | Organisation | Work arrangement | Dates |
+|---|---|---|---|
+| **Head of SEO and Content Marketing** | London Taxi Adverts | Remote | July 2025–Present |
+| **Freelance SEO Consultant and PR Strategist** | Out Of Office Creative Retreats | Remote | 2025 |
+| **Content Strategist** | GetMega | Remote | Oct 2024–Feb 2025 |
+| **Freelance SEO Content Strategist and Marketer** | Independent | Remote | 2022–Present |
 
 ## Selected Highlights
 
